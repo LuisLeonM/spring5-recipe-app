@@ -1,5 +1,5 @@
 ## Use to run mysql db docker image, optional if you're not using a local mysqldb
-#docker run -d --rm --name spring-mysql -e MYSQL_ROOT_PASSWORD=123456 -p 3306:3306 mysql
+#docker run -d --rm --name spring-mysql -e MYSQL_ROOT_PASSWORD=123456 -e MYSQL_ALLOW_EMPTY_PASSWORD=yes -p 3306:3306 mysql
 
 # connect to mysql and run as root user
 #Create Databases
